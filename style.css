@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ba8e8e;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #e0ded2;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(185, 24, 24, 0.5);
+}
+
+#display {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #4c3992;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    background-color: #8c6784;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #c297c4;
+}
+
+#laps {
+    font-size: 20px;
+    color: #283618;
+    margin-top: 15px;
+}
